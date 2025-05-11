@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <style>
+      html, body {
+        box-sizing: border-box;
+        display: flow-root;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-3.7.2.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div id="c706844d-6118-4fc5-bab9-216cbd7517fe" data-root-id="p8152" style="display: contents;"></div>
+  
+    <script type="application/json" id="f9cb337f-8f86-452a-b152-bd7e3dcdb711">
+      {"7d7a1322-f6a6-4f58-8f9c-1212fad65ccf":{"version":"3.7.2","title":"Bokeh Application","roots":[{"type":"object","name":"Figure","id":"p8152","attributes":{"width":900,"height":500,"x_range":{"type":"object","name":"FactorRange","id":"p8162","attributes":{"factors":["agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined"]}},"y_range":{"type":"object","name":"FactorRange","id":"p8163","attributes":{"factors":["combined","The Left","S&amp;D","REG","NI","IDG","Greens/EFA","EPP"]}},"x_scale":{"type":"object","name":"CategoricalScale","id":"p8164"},"y_scale":{"type":"object","name":"CategoricalScale","id":"p8165"},"title":{"type":"object","name":"Title","id":"p8155","attributes":{"text":"Aggregated EP Voting Patterns Across All Years"}},"renderers":[{"type":"object","name":"GlyphRenderer","id":"p8195","attributes":{"data_source":{"type":"object","name":"ColumnDataSource","id":"p8148","attributes":{"selected":{"type":"object","name":"Selection","id":"p8149","attributes":{"indices":[],"line_indices":[]}},"selection_policy":{"type":"object","name":"UnionRenderers","id":"p8150"},"data":{"type":"map","entries":[["epg",["EPP","EPP","EPP","EPP","EPP","EPP","EPP","EPP","EPP","EPP","EPP","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","Greens/EFA","IDG","IDG","IDG","IDG","IDG","IDG","IDG","IDG","IDG","IDG","IDG","NI","NI","NI","NI","NI","NI","NI","NI","NI","NI","NI","REG","REG","REG","REG","REG","REG","REG","REG","REG","REG","REG","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","S&amp;D","The Left","The Left","The Left","The Left","The Left","The Left","The Left","The Left","The Left","The Left","The Left","combined","combined","combined","combined","combined","combined","combined","combined","combined","combined","combined"]],["policy_area",["agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined","agriculture","budget","civil liberties justice home affairs","constitutional inter institutional affairs","economics","environment public health","fisheries","foreign security policy","legal affairs","transport tourism","combined"]],["percentage",[0.5549141349108202,0.4615356196882886,0.5763882357901018,0.4974885460598722,0.5384486729440533,0.5564912631576441,0.6533672271184691,0.5790444525648878,0.7182775385470204,0.5734933614122835,0.5548469614049456,0.5709356036590888,0.6109268280354582,0.6433728842152617,0.6371535241543161,0.721061449575886,0.7042822125119897,0.5935204851958953,0.6498505481073524,0.7160846129455994,0.6639354056776088,0.6548518692404461,0.450002402575561,0.4230652452601039,0.4450124303093602,0.41198690891295037,0.39270294922468835,0.3982487598210296,0.4670534757382017,0.37543255657530245,0.49315591774368117,0.4479521574420433,0.41390268874068076,0.5213625866050808,0.436120669738938,0.46670517369419917,0.41100289214018376,0.4470093391316746,0.5070184983677911,0.5558897961132598,0.4466411215321823,0.506233246819555,0.4861356932153392,0.46987512277255505,0.5389913085320742,0.4869804469514667,0.6106841035716161,0.5410057645520234,0.5839757335918,0.6018523228931735,0.6503267973856209,0.6031674774772646,0.6801550434362934,0.580605738575983,0.5818220141265623,0.5951153895486702,0.5233583605082877,0.654522933957177,0.5725912457865993,0.6680778034813976,0.6606595097787256,0.6834125424038087,0.6321923937647411,0.7452185647569187,0.657780299708545,0.6294602571827377,0.5738986532755078,0.6327793984857957,0.5856789030649157,0.5270431332317487,0.568327898417758,0.6833144008676846,0.6596969696969697,0.5092964797471442,0.6847481835682792,0.5955543193565584,0.5916518495984291,0.5565737236686116,0.5016941052153887,0.5932904240480978,0.5281328809554463,0.5834782978472851,0.597762232069403,0.6403978593968284,0.5765498651400055,0.6952626985915819,0.5949596805562825,0.5757723640055769]]]}}},"view":{"type":"object","name":"CDSView","id":"p8196","attributes":{"filter":{"type":"object","name":"AllIndices","id":"p8197"}}},"glyph":{"type":"object","name":"Rect","id":"p8192","attributes":{"x":{"type":"field","field":"policy_area"},"y":{"type":"field","field":"epg"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":null},"fill_color":{"type":"field","field":"percentage","transform":{"type":"object","name":"LinearColorMapper","id":"p8151","attributes":{"palette":["#67001f","#b2182b","#d6604d","#f4a582","#fddbc7","#f7f7f7","#d1e5f0","#92c5de","#4393c3","#2166ac","#053061"],"low":0.0663265306122449,"high":1.0}}}}},"nonselection_glyph":{"type":"object","name":"Rect","id":"p8193","attributes":{"x":{"type":"field","field":"policy_area"},"y":{"type":"field","field":"epg"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":null},"line_alpha":{"type":"value","value":0.1},"fill_color":{"type":"field","field":"percentage","transform":{"id":"p8151"}},"fill_alpha":{"type":"value","value":0.1},"hatch_alpha":{"type":"value","value":0.1}}},"muted_glyph":{"type":"object","name":"Rect","id":"p8194","attributes":{"x":{"type":"field","field":"policy_area"},"y":{"type":"field","field":"epg"},"width":{"type":"value","value":1},"height":{"type":"value","value":1},"line_color":{"type":"value","value":null},"line_alpha":{"type":"value","value":0.2},"fill_color":{"type":"field","field":"percentage","transform":{"id":"p8151"}},"fill_alpha":{"type":"value","value":0.2},"hatch_alpha":{"type":"value","value":0.2}}}}}],"toolbar":{"type":"object","name":"Toolbar","id":"p8161","attributes":{"tools":[{"type":"object","name":"HoverTool","id":"p8176","attributes":{"renderers":"auto","tooltips":[["EPG","@epg"],["Policy Area","@policy_area"],["Yes %","@percentage{0.2f}"]]}},{"type":"object","name":"SaveTool","id":"p8177"},{"type":"object","name":"PanTool","id":"p8178"},{"type":"object","name":"BoxZoomTool","id":"p8179","attributes":{"dimensions":"both","overlay":{"type":"object","name":"BoxAnnotation","id":"p8180","attributes":{"syncable":false,"line_color":"black","line_alpha":1.0,"line_width":2,"line_dash":[4,4],"fill_color":"lightgrey","fill_alpha":0.5,"level":"overlay","visible":false,"left":{"type":"number","value":"nan"},"right":{"type":"number","value":"nan"},"top":{"type":"number","value":"nan"},"bottom":{"type":"number","value":"nan"},"left_units":"canvas","right_units":"canvas","top_units":"canvas","bottom_units":"canvas","handles":{"type":"object","name":"BoxInteractionHandles","id":"p8186","attributes":{"all":{"type":"object","name":"AreaVisuals","id":"p8185","attributes":{"fill_color":"white","hover_fill_color":"lightgray"}}}}}}}},{"type":"object","name":"ResetTool","id":"p8187"},{"type":"object","name":"WheelZoomTool","id":"p8188","attributes":{"renderers":"auto"}}]}},"left":[{"type":"object","name":"CategoricalAxis","id":"p8171","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p8172"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p8173"},"major_label_standoff":0,"major_label_policy":{"type":"object","name":"AllLabels","id":"p8174"},"major_label_text_font_size":"10pt","axis_line_color":null,"major_tick_line_color":null}}],"right":[{"type":"object","name":"ColorBar","id":"p8200","attributes":{"location":[0,0],"ticker":{"type":"object","name":"BasicTicker","id":"p8198","attributes":{"desired_num_ticks":10,"mantissas":[1,2,5]}},"formatter":{"type":"object","name":"PrintfTickFormatter","id":"p8199","attributes":{"format":"%.2f"}},"major_label_policy":{"type":"object","name":"NoOverlap","id":"p8201"},"major_label_text_font_size":"8pt","label_standoff":6,"color_mapper":{"id":"p8151"}}}],"above":[{"type":"object","name":"CategoricalAxis","id":"p8166","attributes":{"ticker":{"type":"object","name":"CategoricalTicker","id":"p8167"},"formatter":{"type":"object","name":"CategoricalTickFormatter","id":"p8168"},"major_label_standoff":0,"major_label_orientation":1.0471975511965976,"major_label_policy":{"type":"object","name":"AllLabels","id":"p8169"},"major_label_text_font_size":"10pt","axis_line_color":null,"major_tick_line_color":null}}],"center":[{"type":"object","name":"Grid","id":"p8170","attributes":{"axis":{"id":"p8166"},"grid_line_color":null}},{"type":"object","name":"Grid","id":"p8175","attributes":{"dimension":1,"axis":{"id":"p8171"},"grid_line_color":null}}]}}]}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('f9cb337f-8f86-452a-b152-bd7e3dcdb711').textContent;
+              const render_items = [{"docid":"7d7a1322-f6a6-4f58-8f9c-1212fad65ccf","roots":{"p8152":"c706844d-6118-4fc5-bab9-216cbd7517fe"},"root_ids":["p8152"]}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
